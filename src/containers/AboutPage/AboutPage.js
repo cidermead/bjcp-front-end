@@ -1,0 +1,21 @@
+import React from 'react';
+import Typography from "@material-ui/core/Typography";
+
+const text = [
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. In hendrerit gravida rutrum quisque non tellus orci. Elementum pulvinar etiam non quam. Adipiscing at in tellus integer feugiat scelerisque varius morbi enim. Integer enim neque volutpat ac tincidunt vitae semper. Imperdiet massa tincidunt nunc pulvinar sapien. Sed vulputate odio ut enim blandit volutpat maecenas volutpat. Imperdiet massa tincidunt nunc pulvinar sapien et. At auctor urna nunc id cursus. Ultricies lacus sed turpis tincidunt id. Lacinia at quis risus sed vulputate odio. Phasellus egestas tellus rutrum tellus pellentesque eu. Morbi tristique senectus et netus. Nulla pharetra diam sit amet nisl. Blandit turpis cursus in hac habitasse platea.',
+  'Vel turpis nunc eget lorem dolor sed viverra ipsum. Sed risus pretium quam vulputate dignissim. Sed arcu non odio euismod lacinia at quis risus. Porttitor eget dolor morbi non arcu risus quis. Convallis aenean et tortor at risus viverra adipiscing. Tortor posuere ac ut consequat semper viverra nam libero justo. Ut eu sem integer vitae justo eget. Etiam non quam lacus suspendisse faucibus interdum posuere lorem. Aliquam id diam maecenas ultricies mi. Tempor commodo ullamcorper a lacus vestibulum sed arcu non. Scelerisque fermentum dui faucibus in ornare quam viverra orci. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Feugiat nisl pretium fusce id velit ut.',
+  'Dolor sit amet consectetur adipiscing elit ut. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Leo urna molestie at elementum eu facilisis sed odio. Vel risus commodo viverra maecenas accumsan. Risus in hendrerit gravida rutrum quisque non tellus orci ac. Scelerisque eleifend donec pretium vulputate sapien. Arcu non odio euismod lacinia at quis. Eu augue ut lectus arcu bibendum. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Gravida quis blandit turpis cursus in. Interdum varius sit amet mattis vulputate enim nulla. In egestas erat imperdiet sed euismod. Id interdum velit laoreet id donec. Turpis cursus in hac habitasse platea dictumst quisque sagittis purus. Non tellus orci ac auctor augue. Integer quis auctor elit sed vulputate mi sit amet mauris. Netus et malesuada fames ac turpis egestas. Quisque egestas diam in arcu cursus euismod quis viverra.',
+  'Consectetur libero id faucibus nisl tincidunt. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Metus vulputate eu scelerisque felis. Pharetra et ultrices neque ornare aenean euismod elementum nisi. Amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Quis ipsum suspendisse ultrices gravida. Massa vitae tortor condimentum lacinia quis vel. Sed risus ultricies tristique nulla aliquet enim. Eros in cursus turpis massa tincidunt dui. Donec et odio pellentesque diam volutpat commodo. Fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate.',
+  'Ultrices dui sapien eget mi proin sed libero. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Mi proin sed libero enim sed faucibus turpis in eu. Diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus. Odio facilisis mauris sit amet. Sed turpis tincidunt id aliquet. Volutpat blandit aliquam etiam erat velit. Eget nunc lobortis mattis aliquam faucibus purus. Enim lobortis scelerisque fermentum dui faucibus. Integer enim neque volutpat ac tincidunt vitae semper. Elit at imperdiet dui accumsan sit amet nulla. Gravida cum sociis natoque penatibus. In ornare quam viverra orci sagittis eu volutpat odio. Eu scelerisque felis imperdiet proin fermentum. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut.',
+];
+
+const About = () => (
+  <div>
+    <Typography variant="h4" gutterBottom>
+      About Project
+    </Typography>
+    {text.map((para, i) => <Typography key={`key-${i}`}>{para}</Typography>)}
+  </div>
+);
+
+export default About;
