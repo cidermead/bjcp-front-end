@@ -33,6 +33,8 @@ const categories = [
       { id: 'Balance in Cider', exam: 'cider', url: '/questions/cider/balance', icon: <SettingsApplicationsIcon /> },
       { id: 'Cider Faults', exam: 'cider', url: '/questions/cider/faults', icon: <SettingsApplicationsIcon /> },
       { id: 'Making Process', exam: 'cider', url: '/questions/cider/process', icon: <SettingsApplicationsIcon /> },
+      { id: 'Terminology', exam: 'cider', url: '/questions/cider/terminology', icon: <SettingsApplicationsIcon /> },
+
     ],
   },
   {
