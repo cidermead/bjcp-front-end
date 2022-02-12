@@ -63,7 +63,7 @@
     "@craco/craco": "5.6.1",
     "@semantic-ui-react/craco-less": "1.1.0",
     "acorn": "7.1.0",
-    "ajv": "6.10.2",
+    "ajv": "6.12.3",
     "autoprefixer": "9.7.0",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.3",
